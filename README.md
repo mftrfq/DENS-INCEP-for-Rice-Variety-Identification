@@ -33,7 +33,7 @@ The model training and evaluation are performed using the following publicly ava
 
 The DENS-INCEP architecture, central to this research, is illustrated below, showcasing the integration of DenseNet and Inception concepts for feature extraction. The model is specifically engineered to handle the subtle morphological differences present in rice grain images.
 
-![DENS-INCEP Architecture Diagram](assets/DENS_INCEP_Architecture.png)
+![DENS-INCEP Architecture Diagram](Assets/DENS-INCEP_Architecture.png)
 
 The name **DENS-INCEP** is a portmanteau that directly indicates the architecture's hybrid nature, combining two highly effective deep learning components: DenseNet-201 and the Inception Module.
 
