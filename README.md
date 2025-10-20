@@ -44,9 +44,17 @@ The name **DENS-INCEP** is a portmanteau that directly indicates the architectur
 * **High Accuracy Metrics:** Focus on achieving superior classification performance suitable for real-world agricultural application.
 * **Data Preprocessing Pipeline:** Robust scripts for image normalization, augmentation, and efficient data loading.
 
-## 💻 Technology Stack
+## 💻 Technology Stack & Dependencies
 
-* **Language:** Python
-* **Frameworks:** TensorFlow / Keras 
-* **Libraries:** NumPy, Pandas, Matplotlib, scikit-learn
-* **Environment:** Jupyter Notebooks / Python Scripts
+This project is built using Python and relies heavily on the **TensorFlow/Keras** ecosystem for deep learning implementation, along with various standard data science libraries.
+
+### Core Frameworks
+* **Deep Learning:** **TensorFlow** and **Keras**
+* **Data Science:** **NumPy** and **Pandas**
+
+### Key Libraries Used
+* **Data Handling & Preprocessing:** `pathlib`, `glob`, `splitfolders`, `shutil`, `PIL`, `cv2`
+* **Model Building & Training:** `DenseNet201`, `InceptionV3`, `VGG19`, `ResNet50`, `ImageDataGenerator`, `Adam`, `CategoricalCrossentropy`
+* **Visualization:** `matplotlib.pyplot`, `seaborn`
+* **Evaluation & Metrics:** `sklearn.metrics` (`classification_report`, `confusion_matrix`, `roc_curve`, `auc`, `accuracy_score`, `precision_score`, `recall_score`)
+* **Utilities:** `random`, `os`, `warnings`, `google.colab`
